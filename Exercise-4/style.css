@@ -5,14 +5,15 @@
 }
 
 body {
-    background-color: rgb(3, 114, 3);
+    background-color: #ff00ec;
 }
 
 .nav {
-    background-color: rgb(153, 4, 183);
+    background-color: red;
     position: sticky;
     top: 0px;
     box-sizing: border-box;
+    box-shadow: 0px 5px 20px 4px rgb(190 12 12);
 }
 
 .nav ul {
@@ -29,59 +30,75 @@ body {
     font-weight: bold;
     text-decoration: none;
     padding: 10px;
+    font-size: 20px;
 }
 
 .container {
     display: flex;
-    margin-top: 20px;
+    margin: 40px 30px;
+    background-color: rgb(3, 114, 3);
+    border-radius: 10px;
+    padding: 30px;
+    padding-bottom: 40px;
+    box-shadow: 0 0 20px 5px #268707;
 }
 
 .box1 {
-    background-color: pink;
-    border: 2px solid none;
+    background-color: #ffe600;
     margin: 10px 120px;
     border-radius: 7px;
     padding: 10px;
     text-align: justify;
+    box-shadow: 6px 3px 20px 5px rgb(255 214 0);
 }
 
 .box2 {
-    background-color: rgb(0, 251, 255);
-    border: 2px solid none;
+    background-color: rgb(0 255 210);
     margin: 10px 120px;
     border-radius: 7px;
     padding: 10px;
     text-align: justify;
+    box-shadow: 2px 2px 20px 8px rgb(0 216 248);
 
 }
 
 .footer {
-    background-color: rgba(24, 19, 19, 0.679);
+    background-color: rgb(0, 0, 0);
     color: white;
     font-weight: bold;
     text-align: center;
     bottom: 0px;
     padding: 20px;
     box-sizing: border-box;
+    box-shadow: 0 -6px 20px 4px rgb(65 45 45);
 }
 
 .circle {
 
     box-sizing: border-box;
     position: fixed;
-    bottom: 0px;
-    left: 92vw;
+    bottom: 10px;
+    right: 15px;
 }
 
 .circle img {
     border-radius: 50px;
+    box-shadow: 0 0 20px 9px rgb(255 255 255);
 }
 
 .contant {
-    border: 2px solid white;
+    border: 2px solid red;
     border-radius: 50px;
     padding: 40px;
     margin: 60px;
     text-align: center;
     color: aliceblue;
+    box-shadow: 0 0 20px 6px rgb(153 22 14);
+    background-color: red;
+}
+.box1 p{
+    text-shadow: 0px 0 15px #3b3d2c;
+}
+.box2 p{
+    text-shadow: 0px 0 15px #362f3c;
 }
